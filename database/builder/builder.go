@@ -1,9 +1,9 @@
 package builder
 
 import (
-	"github.com/forbole/juno/v2/database"
+	"github.com/pylons-tech/juno/database"
 
-	"github.com/forbole/juno/v2/database/postgresql"
+	"github.com/pylons-tech/juno/database/postgresql"
 )
 
 // Builder represents a generic Builder implementation that build the proper database

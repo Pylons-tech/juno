@@ -4,22 +4,22 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/forbole/juno/v2/logging"
+	"github.com/pylons-tech/juno/logging"
 
 	"github.com/cosmos/cosmos-sdk/codec"
 
-	"github.com/forbole/juno/v2/database"
-	"github.com/forbole/juno/v2/types/config"
+	"github.com/pylons-tech/juno/database"
+	"github.com/pylons-tech/juno/types/config"
 
-	"github.com/forbole/juno/v2/modules"
+	"github.com/pylons-tech/juno/modules"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	tmctypes "github.com/tendermint/tendermint/rpc/core/types"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	"github.com/forbole/juno/v2/node"
-	"github.com/forbole/juno/v2/types"
-	"github.com/forbole/juno/v2/types/utils"
+	"github.com/pylons-tech/juno/node"
+	"github.com/pylons-tech/juno/types"
+	"github.com/pylons-tech/juno/types/utils"
 )
 
 // Worker defines a job consumer that is responsible for getting and
