@@ -3,13 +3,13 @@ package builder
 import (
 	"fmt"
 
-	"github.com/desmos-labs/juno/db"
+	"github.com/pylons-tech/juno/db"
 
 	"github.com/cosmos/cosmos-sdk/codec"
 
-	"github.com/desmos-labs/juno/config"
-	"github.com/desmos-labs/juno/db/mongo"
-	"github.com/desmos-labs/juno/db/postgresql"
+	"github.com/pylons-tech/juno/config"
+	"github.com/pylons-tech/juno/db/mongo"
+	"github.com/pylons-tech/juno/db/postgresql"
 )
 
 // Builder represents a generic Builder implementation that build the proper database

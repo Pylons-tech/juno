@@ -8,9 +8,9 @@ import (
 
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	"github.com/desmos-labs/juno/config"
-	"github.com/desmos-labs/juno/db"
-	"github.com/desmos-labs/juno/types"
+	"github.com/pylons-tech/juno/config"
+	"github.com/pylons-tech/juno/db"
+	"github.com/pylons-tech/juno/types"
 
 	"github.com/cosmos/cosmos-sdk/codec"
 	"github.com/pkg/errors"

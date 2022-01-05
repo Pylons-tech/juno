@@ -9,7 +9,7 @@ import (
 	tmtypes "github.com/tendermint/tendermint/types"
 	"go.mongodb.org/mongo-driver/bson"
 
-	"github.com/desmos-labs/juno/types"
+	"github.com/pylons-tech/juno/types"
 )
 
 func ConvertBlockToBSONSetDocument(block *tmctypes.ResultBlock, totalGas, preCommits uint64) bson.D {

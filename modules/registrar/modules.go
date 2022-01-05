@@ -3,7 +3,7 @@ package registrar
 import (
 	"github.com/rs/zerolog/log"
 
-	"github.com/desmos-labs/juno/modules"
+	"github.com/pylons-tech/juno/modules"
 )
 
 var (

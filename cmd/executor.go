@@ -8,8 +8,8 @@ import (
 	"github.com/spf13/viper"
 	"github.com/tendermint/tendermint/libs/cli"
 
-	"github.com/desmos-labs/juno/config"
-	"github.com/desmos-labs/juno/db"
+	"github.com/pylons-tech/juno/config"
+	"github.com/pylons-tech/juno/db"
 )
 
 // RootCmd allows to build the default root command having the given name

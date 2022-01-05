@@ -9,10 +9,10 @@ import (
 	tmctypes "github.com/tendermint/tendermint/rpc/core/types"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	"github.com/desmos-labs/juno/client"
-	"github.com/desmos-labs/juno/config"
-	"github.com/desmos-labs/juno/db"
-	"github.com/desmos-labs/juno/types"
+	"github.com/pylons-tech/juno/client"
+	"github.com/pylons-tech/juno/config"
+	"github.com/pylons-tech/juno/db"
+	"github.com/pylons-tech/juno/types"
 )
 
 // Module represents a generic module that has the ability to properly handle the chain data.

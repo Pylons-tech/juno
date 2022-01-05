@@ -5,9 +5,9 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/simapp"
 
-	"github.com/desmos-labs/juno/cmd"
-	"github.com/desmos-labs/juno/config"
-	stddb "github.com/desmos-labs/juno/db/builder"
+	"github.com/pylons-tech/juno/cmd"
+	"github.com/pylons-tech/juno/config"
+	stddb "github.com/pylons-tech/juno/db/builder"
 )
 
 func main() {

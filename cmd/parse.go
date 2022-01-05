@@ -14,16 +14,16 @@ import (
 	"github.com/spf13/viper"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	"github.com/desmos-labs/juno/client"
-	"github.com/desmos-labs/juno/modules"
-	"github.com/desmos-labs/juno/modules/registrar"
-	"github.com/desmos-labs/juno/types"
-	"github.com/desmos-labs/juno/worker"
+	"github.com/pylons-tech/juno/client"
+	"github.com/pylons-tech/juno/modules"
+	"github.com/pylons-tech/juno/modules/registrar"
+	"github.com/pylons-tech/juno/types"
+	"github.com/pylons-tech/juno/worker"
 
 	"github.com/cosmos/cosmos-sdk/codec"
 
-	"github.com/desmos-labs/juno/config"
-	"github.com/desmos-labs/juno/db"
+	"github.com/pylons-tech/juno/config"
+	"github.com/pylons-tech/juno/db"
 
 	"github.com/rs/zerolog"
 	"github.com/spf13/cobra"

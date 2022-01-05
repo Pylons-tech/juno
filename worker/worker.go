@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/desmos-labs/juno/logging"
-	"github.com/desmos-labs/juno/modules"
+	"github.com/pylons-tech/juno/logging"
+	"github.com/pylons-tech/juno/modules"
 
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
@@ -13,9 +13,9 @@ import (
 	tmctypes "github.com/tendermint/tendermint/rpc/core/types"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	"github.com/desmos-labs/juno/client"
-	"github.com/desmos-labs/juno/db"
-	"github.com/desmos-labs/juno/types"
+	"github.com/pylons-tech/juno/client"
+	"github.com/pylons-tech/juno/db"
+	"github.com/pylons-tech/juno/types"
 )
 
 // Worker defines a job consumer that is responsible for getting and

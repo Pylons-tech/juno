@@ -10,10 +10,10 @@ import (
 	tmctypes "github.com/tendermint/tendermint/rpc/core/types"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	"github.com/desmos-labs/juno/config"
-	"github.com/desmos-labs/juno/db"
-	"github.com/desmos-labs/juno/db/utils"
-	"github.com/desmos-labs/juno/types"
+	"github.com/pylons-tech/juno/config"
+	"github.com/pylons-tech/juno/db"
+	"github.com/pylons-tech/juno/db/utils"
+	"github.com/pylons-tech/juno/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/x/auth"

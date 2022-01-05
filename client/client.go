@@ -15,7 +15,7 @@ import (
 	httpclient "github.com/tendermint/tendermint/rpc/client/http"
 	tmctypes "github.com/tendermint/tendermint/rpc/core/types"
 
-	"github.com/desmos-labs/juno/config"
+	"github.com/pylons-tech/juno/config"
 )
 
 // Proxy implements a wrapper around both a Tendermint RPC client and a

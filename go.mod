@@ -1,4 +1,4 @@
-module github.com/desmos-labs/juno
+module github.com/pylons-tech/juno
 
 go 1.13
 
