@@ -9,7 +9,7 @@ import (
 	tmctypes "github.com/tendermint/tendermint/rpc/core/types"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	"github.com/pylons-tech/juno/types"
+	"github.com/forbole/juno/v2/types"
 )
 
 // Module represents a generic module without any particular handling of data

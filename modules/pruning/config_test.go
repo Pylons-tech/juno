@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/pylons-tech/juno/modules/pruning"
+	"github.com/forbole/juno/v2/modules/pruning"
 )
 
 func TestParseConfig(t *testing.T) {

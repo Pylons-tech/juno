@@ -4,14 +4,14 @@ import (
 	"github.com/cosmos/cosmos-sdk/simapp"
 	"github.com/cosmos/cosmos-sdk/simapp/params"
 
-	"github.com/pylons-tech/juno/logging"
-	"github.com/pylons-tech/juno/node"
-	"github.com/pylons-tech/juno/types/config"
+	"github.com/forbole/juno/v2/logging"
+	"github.com/forbole/juno/v2/node"
+	"github.com/forbole/juno/v2/types/config"
 
-	"github.com/pylons-tech/juno/database"
-	"github.com/pylons-tech/juno/database/builder"
-	"github.com/pylons-tech/juno/modules"
-	"github.com/pylons-tech/juno/modules/registrar"
+	"github.com/forbole/juno/v2/database"
+	"github.com/forbole/juno/v2/database/builder"
+	"github.com/forbole/juno/v2/modules"
+	"github.com/forbole/juno/v2/modules/registrar"
 )
 
 // Config contains all the configuration for the "parse" command

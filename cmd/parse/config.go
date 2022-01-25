@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/pylons-tech/juno/types/config"
+	"github.com/forbole/juno/v2/types/config"
 
 	"github.com/spf13/cobra"
 
-	"github.com/pylons-tech/juno/types"
+	"github.com/forbole/juno/v2/types"
 )
 
 // ReadConfig parses the configuration file for the executable having the give name using

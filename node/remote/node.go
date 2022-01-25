@@ -12,11 +12,11 @@ import (
 	constypes "github.com/tendermint/tendermint/consensus/types"
 	tmjson "github.com/tendermint/tendermint/libs/json"
 
-	"github.com/pylons-tech/juno/node"
+	"github.com/forbole/juno/v2/node"
 
 	"github.com/cosmos/cosmos-sdk/types/tx"
 
-	"github.com/pylons-tech/juno/types"
+	"github.com/forbole/juno/v2/types"
 
 	httpclient "github.com/tendermint/tendermint/rpc/client/http"
 	tmctypes "github.com/tendermint/tendermint/rpc/core/types"

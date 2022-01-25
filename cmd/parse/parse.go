@@ -8,16 +8,16 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/pylons-tech/juno/logging"
+	"github.com/forbole/juno/v2/logging"
 
-	"github.com/pylons-tech/juno/types/config"
+	"github.com/forbole/juno/v2/types/config"
 
 	"github.com/go-co-op/gocron"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	"github.com/pylons-tech/juno/modules"
-	"github.com/pylons-tech/juno/parser"
-	"github.com/pylons-tech/juno/types"
+	"github.com/forbole/juno/v2/modules"
+	"github.com/forbole/juno/v2/parser"
+	"github.com/forbole/juno/v2/types"
 
 	"github.com/spf13/cobra"
 )

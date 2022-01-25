@@ -3,7 +3,7 @@ package init
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/pylons-tech/juno/types/config"
+	"github.com/forbole/juno/v2/types/config"
 )
 
 // ConfigCreator represents a function that builds a Config instance from the flags that have been specified by the
