@@ -1,8 +1,8 @@
 package telemetry
 
 import (
-	"github.com/forbole/juno/v2/modules"
-	"github.com/forbole/juno/v2/types/config"
+	"github.com/pylons-tech/juno/modules"
+	"github.com/pylons-tech/juno/types/config"
 )
 
 const (

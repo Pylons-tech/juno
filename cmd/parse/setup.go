@@ -4,14 +4,14 @@ import (
 	"fmt"
 	"reflect"
 
-	nodebuilder "github.com/forbole/juno/v2/node/builder"
-	"github.com/forbole/juno/v2/types/config"
+	nodebuilder "github.com/pylons-tech/juno/node/builder"
+	"github.com/pylons-tech/juno/types/config"
 
-	"github.com/forbole/juno/v2/database"
+	"github.com/pylons-tech/juno/database"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	modsregistrar "github.com/forbole/juno/v2/modules/registrar"
+	modsregistrar "github.com/pylons-tech/juno/modules/registrar"
 )
 
 // GetParsingContext setups all the things that should be later passed to StartParsing in order

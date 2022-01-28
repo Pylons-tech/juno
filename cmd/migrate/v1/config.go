@@ -8,7 +8,7 @@ import (
 
 	"github.com/pelletier/go-toml"
 
-	"github.com/forbole/juno/v2/types/config"
+	"github.com/pylons-tech/juno/types/config"
 )
 
 // GetConfigFilePath returns the path to the configuration file given the executable name

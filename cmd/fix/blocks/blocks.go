@@ -3,12 +3,12 @@ package blocks
 import (
 	"fmt"
 
-	"github.com/forbole/juno/v2/cmd/parse"
+	"github.com/pylons-tech/juno/cmd/parse"
 
 	"github.com/spf13/cobra"
 
-	"github.com/forbole/juno/v2/parser"
-	"github.com/forbole/juno/v2/types/config"
+	"github.com/pylons-tech/juno/parser"
+	"github.com/pylons-tech/juno/types/config"
 )
 
 // blocksCmd returns a Cobra command that allows to fix missing blocks in database
